@@ -1,0 +1,146 @@
+body {
+    width: 100vw;
+}
+  
+.spacer {
+    height: 50px;
+}
+
+.base-spacer {
+    height: 100px;
+}
+
+.enormous {
+    font-size: 3rem !important;
+}
+
+#footer {
+background-color: #04273B;
+border-radius: 0;
+bottom: 0;
+}
+
+.light-blue {
+    color: #8BD1F7 !important;
+}
+
+.light-blue:hover {
+    color: white !important;
+}
+
+.cta-button {
+    background-color: #4B91B8 !important;
+    color: white;
+}
+
+.cta-button:hover {
+    background-color: white !important;
+    color: #4B91B8 !important;
+}
+
+.sticky-image {
+    z-index: 110;
+}
+
+.icon {
+    color: #04273B;
+}
+
+.ui.menu
+.item.disabled.icon > .icon {
+    color: rgba(40,40,40,.3) !important;
+}
+
+.login-section {
+    min-height: 100vw;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.8);
+    z-index: 100;
+}
+
+.zoomL {
+    transition: transform .2s;
+}
+
+.zoomL:hover {
+    transform: scale(2.5);
+    z-index: 100;
+}
+
+.ui.right.sidebar > .items > .item > .header {
+    margin-left: 16px !important;
+    color: #8BD1F7 !important;
+}
+
+
+.sidebar-top {
+    margin-top:5px !important; 
+    margin-left:30px !important;
+}
+
+.hamburger {
+    margin-right: 16px !important;
+}
+
+.ui.sidebar.menu {
+    background-color: #04273B
+}
+
+.ui.container.min-height {
+    min-height: calc(100vh - 354px);
+}
+
+.ui.container.min-height-stylist {
+    min-height: calc(100vh - 421px);
+}
+
+.container > .ui.menu.stylist {
+    margin-bottom: 2em;
+}
+
+.cookieinfo {
+    font-family: Rubik, verdana, arial, sans-serif !important;
+    font-size: 15px !important;
+}
+.cookieinfo > span {
+    padding: 8px 0 !important;
+}
+
+.cookieinfo-close {
+    border-radius: 0 !important;
+    padding: 8px 16px !important;
+}
+
+.ui.form .error.message {
+    display: block;
+}
+
+.ui.container.flash {
+    margin-bottom: 1em;
+}
+
+.ui.negative.button > .icon {
+    color: white;
+}
+
+
+/************************************
+            Media Queries 
+**************************************/
+
+@media only screen and (max-width: 767px) {
+    .force-left {
+        flex-direction: initial !important;
+    }
+}
+
+/* Forcing the items in the sidebar to stay left on mobile view. */
+@media only screen and (max-width: 767px) {
+    
+}
